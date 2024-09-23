@@ -1,0 +1,31 @@
+public class Main {
+    public static void main(String[] args) {
+        int hossz = 10;
+        int magassag = 15;
+        //csinaljuk meg egy korre
+        double r = 5.4;
+
+        
+        System.out.println(kerulet(hossz, magassag));
+        System.out.println(terulet(hossz, magassag));
+        System.out.println(sugar(r));
+    }
+
+    public static int kerulet (int h, int m) {
+        return 2 *(h + m);
+
+    }
+
+    public static int terulet(int h, int m) {
+        return h * m;
+
+    }
+
+    public static double sugar(double r) {
+        return Math.PI * r * r;
+    }
+
+    public static double kerulet(double r) {
+        return Math.PI * 2 * r;
+    }
+}
