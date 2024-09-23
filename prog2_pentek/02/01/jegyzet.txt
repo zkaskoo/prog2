@@ -1,0 +1,14 @@
+Osztalyok es objektumok
+
+
+Ha kell egy sajat tipus, akkor erre egy sajat tipust hozok letre.
+
+A konstruktor egy specialis metodus egy osztalyon belul mindig peldanyositaskor fog lefutni.
+Arra hasznaljuk, hogy a segitsegevel beallitsuk az objektum kezdo allapotat.
+Ha egy osztalyon belul nem adunk meg egyetlen konstruktort se akkor a java letrehoz egy alapertelmezett
+konstruktort ez egy parameter nelkuli ures torzsu konstruktor.
+
+
+A this. egy olyan specialis referencia, ami az adott objektumra mutat.
+Vagyis a this. az adott objektumot jelenti, az adott objektumra lehet vele hivatkozni.
+
