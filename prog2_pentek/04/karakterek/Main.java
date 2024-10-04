@@ -19,6 +19,11 @@ public class Main {
         System.out.println(szamok);
 
         List<Integer> copy = new ArrayList<>(szamok);
+        copy.set(0, 99);
 
+        System.out.println(szamok);
+        System.out.println(copy);
+
+        
     }
 }

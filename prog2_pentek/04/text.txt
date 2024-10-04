@@ -1,0 +1,57 @@
+Egy kollekcio olyan objektum ami mas objektumok tarolasara szolgal.
+
+
+sort(-)
+reverse(-)
+rotate(lista,valami)
+
+mindenfele primitiv tipus reszere letezik egy wrapper
+
+byte    Byte
+int     Integer
+char    Character
+
+Egy wrapper class(csomagolo osztaly) az tartalmazza az adott primitiv tipust.
+Mivel a java objektum orientalt nyelv nagyon sok helyen osztalyt kell megadni es a primitiv tipust nem fogadja el.
+Ezert kitalaltak a Work Around megoldast amikor is a primitiv tipus be van csomagolva egy osztalyba es igy a problema meg van oldva.
+
+Tipuskonverziok: (epxlicit)
+ertekadas (implicit)
+
+double d = 2.1;  //8 byte
+int n = (int) d; //4 byte
+n = 2;
+float f = float(d); //4 byte
+f = 2.1
+
+A nagyobb tartomannyal rendelkezo tipusnak ertekul adhato a kissebb tartomannyal rendelkezo tipus.
+Forditott esetben adatvesztes lephet fel ezert a fordito hibat jelez es ilyenkor epxlicit tipuskonverziora(kasztolasra) van szukseg.
+
+Primitiv tipusu ertekbol Stringet keszitunk (konverzio):
+3 kulonbozo modszer van:
+
+a, (ez minden primitiv tipussal mukodik.)
+int i = 2;
+String s = "" + i; //hozzakompeteralas
+s = "2";
+
+b, (String.valueOf statikus metodus )
+
+c, Wrapper osztalynak van egy (Integer.toString statikus metodusa )
+Ha double akarom akkor (Double.toString )
+
+
+parancssori argumentumok
+billentyuzetrol bekeros
+string metodusos feladat string manipulacio arra fv
+irjunk valamilyen utils nevu osztalyt ami ne legyen peldanyosithato abba rakjunk bele 
+tombos feladatok, dinamikus tombok
+
+
+autoboxing fogalma es auto unboxing fogalma 
+
+
+Stringbol primitiv tipus
+
+Integer.parseInt(s)
+Integer.valueOf(s)
